@@ -123,7 +123,7 @@ class SimpleCSV {
         lines.set(index, splitLine);
     }
 
-    public int getLineWithColumns(String searchColumnsString, String valuesString) {
+    public int getLineIndexWithColumns(String searchColumnsString, String valuesString) {
         String[] searchColumns = searchColumnsString.split(",");
         String[] values = valuesString.split(",");
 
